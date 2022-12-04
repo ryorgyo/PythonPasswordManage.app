@@ -1,3 +1,14 @@
 {
-  "javascript.preferences.importModuleSpecifier": "non-relative"
+  "javascript.preferences.importModuleSpecifier": "non-relative",
+
+  "dartsass.targetDirectory": "front/nextjs/styles/css", //どのフォルダに出力するか
+  "dartsass.autoPrefixBrowsersList": [
+    //Autoprefixerの指定
+    "> 3% in JP",
+    "ie 11",
+    "android 4.4",
+    "last 1 versions"
+  ],
+  "dartsass.outputFormat": "cssonly",
+  "dartsass.sassBinPath": "/Users/ryorgyo/Documents/Python/PythonPassManage/front/nextjs/node_modules/.bin/sass"
 }
